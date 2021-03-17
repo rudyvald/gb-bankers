@@ -7,7 +7,6 @@
       form{
           display: flex;
           flex-direction: column;
-          width: 30%;
       }
       input, select, button{
           float: right;
@@ -31,7 +30,16 @@
           color: red;
           font-size: 20px;
       }
-    </style>
+	@media only screen and (max-width: 600px) {form{ width: 100%; }}
+
+	@media only screen and (min-width: 600px) {form{ width: 100%; }}
+
+	@media only screen and (min-width: 768px) {form{ width: 40%; }}
+
+	@media only screen and (min-width: 992px) {form{ width: 30%; }}
+
+	@media only screen and (min-width: 1200px) {form{ width: 30%; } }
+			</style>
   </head>
   <body>
 
