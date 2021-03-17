@@ -6,7 +6,7 @@ GB React Coding challenge was requested, only production version was created in 
 
 ## Process
 
-I used native react without babble for now to keep it as basic as possible. If I had more time for this project I would have created a mockup and created a better more dynamic (and good looking) GUI. Other features I would have liked to implement would be masking for phone numbers, a custom service and database to store information, routings including /register and /login and /profile. I had an issue with CSS not loading on an external file, not sure why. Didn't seem to necessary since there isn't much CSS so it is in the index file.
+I used native react without babble for now to keep it as basic as possible. If I had more time for this project I would have created a mockup and created a better more dynamic (and good looking) GUI. Other features I would have liked to implement would be masking for phone numbers, a custom service and database to store information, routings including /register and /login and /profile. I had an issue with CSS not loading on an external file, not sure why. Didn't seem to necessary since there isn't much CSS so it is in the index file. The last feature I would have implemented is a form generated from json instead of hardcoded, I could have written a function to recursively go over each item and create an input with it's proper attributes.
 
 ## Stakeholders 
 
