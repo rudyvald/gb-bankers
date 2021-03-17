@@ -24,6 +24,7 @@ class NameForm extends React.Component {
     this.renderSubmitBtn = this.renderSubmitBtn.bind(this);
     this.handleSave = this.handleSave.bind(this);
     this.renderMessage = this.renderMessage.bind(this);
+	this.renderDegree = this.renderDegree.bind(this);
     this.sendMessage = this.sendMessage.bind(this);
   }
 
