@@ -10,6 +10,7 @@ class NameForm extends React.Component {
       age: 0,
       height: '',
       education: '',
+	  degree: '',
       userId: 0
     };
     this.message = {
@@ -110,7 +111,7 @@ class NameForm extends React.Component {
       this.renderSaveBtn('degree'),
       React.createElement("select", {
         name: "degree",
-        value: this.state.education,
+        value: this.state.degree,
         onChange: this.handleInputChange
       }, 
       React.createElement("option", {
