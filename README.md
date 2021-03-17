@@ -10,7 +10,7 @@ I used native react without babble for now to keep it as basic as possible. If I
 
 ## Stakeholders 
 
-Rudy Valdez
+Rudy Valdez,
 Global Bankers Engineering Group
 
 ## Environments:
