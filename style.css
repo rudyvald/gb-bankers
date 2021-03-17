@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+input, select, button{
+    float: right;
+    margin-bottom: 15px;
+}
+button{
+    margin-left: 15px;
+}
+label.required:after{
+    content: "*";
+    color: red;
+    font-weight: bold;
+}
+.green{
+    font-weight: bold;
+    color: green;
+    font-size: 14px;
+}
+.red{
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+}

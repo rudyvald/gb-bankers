@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Global Bankers Submission</title>
+    <style>
+      form{
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+      }
+      input, select, button{
+          float: right;
+          margin-bottom: 15px;
+      }
+      button{
+          margin-left: 15px;
+      }
+      label.required:after{
+          content: "*";
+          color: red;
+          font-weight: bold;
+      }
+      .green{
+          font-weight: bold;
+          color: limegreen;
+          font-size: 20px;
+      }
+      .red{
+          font-weight: bold;
+          color: red;
+          font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h2>Registration</h2>
+    <p>Please enter all your information correctly.</p>
+
+    <!-- We will put our React component inside this div. -->
+    <div id="app-container"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="app.js"></script>
+
+  </body>
+</html>
